@@ -23,6 +23,8 @@ class Book {
         return yearPublic;
     }
 
+    public Author getAuthor() {return author;}
+
     //Создайте сеттер для поля «Год публикации» у книги.
     public void setYearPublic(int yearPublic) {
         this.yearPublic = yearPublic;

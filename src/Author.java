@@ -6,10 +6,7 @@ class Author {
     private String surname;
 
     //Напишите конструкторы для обоих классов, заполняющие все поля.
-    public Author() {
-        this.name = name;
-        this.surname = surname;
-    }
+
 
     public Author(String name, String surname) {
         this.name = name;
